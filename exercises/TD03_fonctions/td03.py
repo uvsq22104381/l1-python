@@ -10,11 +10,7 @@ def tempsEnSeconde(temps) :
     seconde = temps[0] * 86400 + temps[1] * 3600 + temps[2] * 60 + temps[3]
     return seconde
 
-
-
 print(tempsEnSeconde(date), "secondes")
-
-
 
 #création d'une fonction donnant les secondes, saisis par l'utilisateur, en temps
 
